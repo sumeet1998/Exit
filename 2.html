@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body
+        {
+            margin: 0;
+        }
+    </style>
+    <script src="2.js"></script>
+</head>
+<body>
+    <div style="height: 50vh;background: royalblue;">
+       <form action="2.html" method="get" >
+           <div style="display: flex;justify-content: center;padding-top: 40px;">
+           <label>Username</label>
+           <input type="text" placeholder="Enter Username" id="usernameid"/>
+           </div>
+           <br>
+           <div style="display: flex;justify-content: center;">
+           <label>Password</label>
+           <input type="password" placeholder="Enter password" id="passwordid"/>
+           </div>
+
+           <div style="padding-left: 110vh;padding-top: 20px;">
+               <button onclick="submit();">Submit</button>
+           </div>
+
+          
+           
+       </form>
+    </div>
+    <div id="InfoBox" style="display: flex;justify-content: center;margin-top: 10px;">*User Info*</div>
+</body>
+</html>
